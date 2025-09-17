@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提交成功 - MATH 221: 线性代数</title>
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Use Inter font as the default */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* A light gray background */
+        }
+        /* Simple animation for cards on hover */
+        .hover-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        
+        .success-icon {
+            color: #10b981; /* green-500 */
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .back-btn {
+            background-color: #3b82f6;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .back-btn:hover {
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="text-center">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900">MATH 221: 线性代数 (Linear Algebra)</h1>
+                <p class="text-lg text-gray-600 mt-2">2025年秋季学期</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-8">
+        <div class="flex justify-center items-center min-h-[60vh]">
+            <div class="bg-white p-8 rounded-lg shadow-sm text-center hover-card max-w-2xl">
+                <i class="fas fa-check-circle success-icon"></i>
+                <h2 class="text-3xl font-bold mb-4 text-gray-900">挑战性作业提交成功！</h2>
+                <p class="text-lg text-gray-700 mb-2">
+                    感谢您提交挑战性作业。我们已经收到您的文件，并将尽快处理。
+                </p>
+                <p class="text-gray-600 mb-6">
+                    确认邮件已发送至您的邮箱，请注意查收。
+                </p>
+                <div class="mt-8">
+                    <a href="index.html" class="back-btn">
+                        <i class="fas fa-arrow-left mr-2"></i>返回课程主页
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white mt-12 py-4 border-t">
+        <div class="container mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2025 [你的大学名称] 数学系. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
